@@ -1,8 +1,8 @@
 #  Copyright (c) Juniper Networks, Inc., 2025-2025.
 #  All rights reserved.
 #  SPDX-License-Identifier: MIT
-# v1.0 - 12 Aug 25 - Author: brenet@juniper.net - Initial release 
-# v1.1 - 10 Oct 25 - Author: brenet@juniper.net - automatic detection of IRB based peering via the existence of vlan.ipv4_address
+# v1.0.0 - 12 Aug 25 - Author: brenet@juniper.net - Initial release 
+# v1.1.0 - 10 Oct 25 - Author: brenet@juniper.net - automatic detection of IRB based peering via the existence of vlan.ipv4_address
 
 resource "apstra_configlet" "example" {
   name = var.name
